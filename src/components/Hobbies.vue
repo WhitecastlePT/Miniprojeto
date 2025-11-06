@@ -56,32 +56,6 @@
   text-align: justify;
 }
 
-/* informações de contacto */
-.grelhaInfo {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1rem;
-}
-
-.item-dado {
-  background: rgba(255, 255, 255, 0.05);
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.item-dado strong {
-  color: #a0c4ff;
-  font-size: 0.9rem;
-}
-
-.item-dado span {
-  color: #e2e8f0;
-  font-size: 1rem;
-}
-
 /* Media Queries - Tablet */
 @media screen and (max-width: 1024px) {
   .caixaSeccao {
